@@ -129,6 +129,14 @@ title" — never your account, your watchlists, which titles you loved, or which
 already have. Deciding what to show you, and excluding anything you already saved, watched, or
 disliked, all happens on the device.
 
+**Import from IMDb** reads an export file you choose from your device. The file itself never leaves
+your device: the app sends the service only the IMDb title ids from it, a few at a time, with a
+country code, so it can look up those titles. Your ratings, rating dates, list names and notes in the
+file stay on the device, where the app uses them to decide which imported titles to mark as watched.
+The service does not keep which ids you sent or link them to you or your account; it keeps a shared
+lookup from an IMDb id to its catalogue title, used for everyone, so the same title is not looked up
+twice. The imported titles are then saved to your lists like any other title.
+
 ### Verifying that requests come from the genuine app (iPhone and iPad)
 
 To protect the service from automated abuse, SceneNest uses Apple's **App Attest**. On its
