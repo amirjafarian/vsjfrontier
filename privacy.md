@@ -131,8 +131,11 @@ disliked, all happens on the device.
 
 **Import from IMDb** reads an export file you choose from your device. The file itself never leaves
 your device: the app sends the service only the IMDb title ids from it, a few at a time, with a
-country code, so it can look up those titles. Your ratings, rating dates, list names and notes in the
-file stay on the device, where the app uses them to decide which imported titles to mark as watched.
+country code, so it can look up those titles. The file's ratings, rating dates, list names and notes
+are not sent. The app reads them on the device to decide which imported titles to mark as watched,
+when (a title's rating date becomes its watched date), and whether you loved, liked or disliked it
+(from the rating). Those results are saved like ones you set yourself and sync with your library if you
+are signed in; the rating number itself is not saved.
 The service does not keep which ids you sent or link them to you or your account; it keeps a shared
 lookup from an IMDb id to its catalogue title, used for everyone, so the same title is not looked up
 twice. The imported titles are then saved to your lists like any other title.
