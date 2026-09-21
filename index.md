@@ -28,7 +28,6 @@ We publish a plain-language privacy policy for every app we ship.
 
 ## Contact
 
-- General and support enquiries: [amir.jafarian@outlook.com](mailto:amir.jafarian@outlook.com)
-- Privacy enquiries: [scenenest.privacy@outlook.com](mailto:scenenest.privacy@outlook.com)
+- General, support and privacy enquiries: [scenenest.privacy@outlook.com](mailto:scenenest.privacy@outlook.com)
 
 VSJ Frontier operates from Australia.
